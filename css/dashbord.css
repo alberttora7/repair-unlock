@@ -1,0 +1,20 @@
+body {
+      background-color: #e0e0e0;
+    }
+    .navbar {
+      background-color: #0097a7;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .chart-container {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h6 {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 600;
+    }

@@ -8,6 +8,7 @@
       flex-direction: column;
     }
     .login-box {
+     
       background: #0097a7;
       padding: 30px;
       border-radius: 20px;
@@ -40,7 +41,7 @@
       text-decoration: underline;
     }
     .logo img {
-      width: 150px;
-      margin-bottom: 10px;
+      width: 270px;
+      margin-bottom: -25px;
     }
  

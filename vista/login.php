@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php require "./inc/head.php"?>
+    <?php require "../inc/head.php"?>
   <title>Login - Repair Unlock</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
   <!-- Logo -->
   <div class="logo text-center">
     <!-- Aquí colocas tu logo -->
-    <img src="./img/pro.jpg" alt="Logo Repair Unlock">
-    <h5 class="fw-bold mt-2">REPAIR UNLOCK</h5>
+    <img src="../img/Pro.png" alt="Logo Repair Unlock">
+   <!-- <h5 class="fw-bold mt-2">REPAIR UNLOCK</h5>-->
   </div>
 
   <!-- Caja de Login -->
   <div class="login-box mt-3">
     <h3>Inicio de sesión</h3>
-    <form>
+    <form action="" method="POST">
       <!-- Email -->
       <div class="input-group mb-3">
         <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
-        <input type="email" class="form-control" placeholder="Correo electrónico">
+        <input type="email" class="form-control" placeholder="Correo electrónico" required>
       </div>
       <!-- Contraseña -->
       <div class="input-group mb-3">
         <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
-        <input type="password" class="form-control" placeholder="Contraseña">
+        <input type="password" class="form-control" placeholder="Contraseña" required>
       </div>
       <!-- Botón -->
       <button type="submit" class="btn btn-login w-100">Iniciar sesión</button>
@@ -34,6 +35,6 @@
     </form>
   </div>
 
-  <?php require("./inc/footer.php")  ?>
+  <?php require("../inc/footer.php")  ?>
 </body>
 </html>
