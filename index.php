@@ -8,22 +8,7 @@
 </head>
 <body>
      <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark px-3">
-        <a class="navbar-brand d-flex align-items-center" href="/index.php">
-            <img src="./img/Pro.png" alt="Repair Unlock">
-        </a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Registro</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Factura</a></li>
-            </ul>
-        </div>
-        <div class="d-flex align-items-center text-white">
-            <span class="me-2">Admin</span>
-            <i class="bi bi-person-circle fs-4"></i>
-        </div>
-  </nav>
+  <?php require "./inc/navbar.php"?>
 
   <!-- Dashboard -->
   <div class="container mt-4">
