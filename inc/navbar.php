@@ -1,8 +1,8 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-dark  px-3">
+<nav class="navbar navbar-expand-lg  navbar-dark  px-3">
   <a class="navbar-brand d-flex align-items-center" href="/index.php">
-    <img src="./img/Pro.png" alt="Repair Unlock" height="40">
+    <img src="../img/Pro.png" alt="Repair Unlock" height="40">
   </a>
 
   <!-- Botón hamburguesa -->
@@ -13,7 +13,7 @@
   <!-- Contenido del navbar -->
   <div class="collapse navbar-collapse" id="navbarContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link active" href="../index.php">Inicio</a></li>
 
       <!-- Dropdown Registro  //dropdown-toggle >-->
       <li class="nav-item dropdown">
@@ -21,7 +21,7 @@
           Registro
         </a>
         <ul class="dropdown-menu" >
-          <li><a class="dropdown-item" href="#">Registro de cliente</a></li>
+          <li><a class="dropdown-item" href="../vista/regist_client.php">Registro de cliente</a></li>
           <li><a class="dropdown-item" href="#">Registro de servicio</a></li>
         </ul>
       </li>

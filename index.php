@@ -3,8 +3,8 @@
 <head>
    <?php require "./inc/head.php"?>
     <title>Dashboard - Repair Unlock</title>
-     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-     <link rel="stylesheet" href="./css/dashbord.css">
+     <!--<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+     
 </head>
 <body>
      <!-- Navbar -->

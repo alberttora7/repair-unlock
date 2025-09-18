@@ -1,0 +1,37 @@
+
+    body {
+      background-color: #e6e6e6;
+    }
+    .registro-card {
+      background-color: #0097a7;
+      border-radius: 30px;
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+      margin-top: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .registro-card h3 {
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .form-label {
+      color: #fff;
+      font-weight: 500;
+    }
+    .form-control {
+      border-radius: 20px;
+    }
+    .btn-registrar {
+      background: #46cdf6;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      color:#fff
+    }
+    .btn-registrar:hover {
+      background: #00a8db;
+      color:#37f3f6
+    }
