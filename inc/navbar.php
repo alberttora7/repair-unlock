@@ -22,7 +22,8 @@
         </a>
         <ul class="dropdown-menu" >
           <li><a class="dropdown-item" href="../vista/regist_client.php">Registro de cliente</a></li>
-          <li><a class="dropdown-item" href="#">Registro de servicio</a></li>
+          <li><a class="dropdown-item" href="../vista/regist_servic.php">Registro de servicio</a></li>
+          <li><a class="dropdown-item" href="../vista/vanta_producto.php">Ventas de producto </a></li>
         </ul>
       </li>
 

@@ -16,6 +16,7 @@
       font-weight: bold;
       margin-bottom: 2rem;
       text-align: center;
+      text-transform: uppercase;
     }
     .form-label {
       color: #fff;
@@ -23,6 +24,15 @@
     }
     .form-control {
       border-radius: 20px;
+      
+    }
+    .tmImput{
+      width: 48%;
+      
+    }
+    .central{
+      text-align: center;
+      justify-content: center;
     }
     .btn-registrar {
       background: #46cdf6;
